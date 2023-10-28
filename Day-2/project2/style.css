@@ -1,42 +1,79 @@
 .box{
-    text-align: center;
-    margin: 150px auto;
+    background-color: white;
+    width: 350px;
+    height: 500px;
+    margin: 20px auto;
+    border-radius: 20px;
+    border: 2px solid black;
     position: relative;
 }
+
 .bg{
-    width: 800px;
-    height: 400px;
+    height: 200px;
+    width: 350px;
+    border-radius: 20px;
+}
+.min{
+    border: 1px solid white;
+    color: rgb(54, 54, 54);
+    position: absolute;
+    right: 18px;
+    margin-top: -40px;
+    background-color: white;
+    border-radius: 6px;
+    padding: 2px;
+}
+
+.off{
+    background-color: rgb(50, 97, 162);
+    color: white;
+    position: absolute;
+    margin-top: -40px;
+    padding: 2px;
+
+}
+.pro{
+    position:absolute;
+    background-color: rgb(199, 188, 188);
+    color: black;
+    top: 5px;
+    left: 5px;
+    border-radius: 3px;
+    padding: 4px;
+    height: 15px;
 }
 .content{
     position: absolute;
-    bottom: 200px;
-    left: 500px;
-    color: white;
+    color: grey;
+    font-size: small;
+    margin: 10px;
 }
-.fn-size-h1{
-    font-size: 3rem;
-    margin: -5px;
-}
-
-.inp{
-    width: 275px;
-    position: absolute;
-    left: 175px;
-    height: 30px;
-    border-radius: 5px;
-    border: 0 solid white;
-    padding: 5px;
+.rest-name{
+    margin-top: -10px;
 }
 
-.srcicon{
-    width: 30px;
+.rest-type{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-top: -10px;
+}
+
+.box hr{
+    margin: 80px 10px;
+    color: grey;
+}
+
+.safe-img{
+    height: 50px;
+    width: 100px;
     position: absolute;
-    left: 155px;
-    height: 40px;
-    border-radius: 5px;
-    border: 0 solid white;
-    padding: 5px;
-    background-color: white;
-    margin: 0 -5px;
-    color: rgb(120, 120, 120);
+    bottom: 150px;
+    margin-left: 10px;
+}
+.safety-text{
+    position: absolute;
+    bottom: 80px;
+    padding: 50px;
+    left: 80px;
+    color: grey;
 }
